@@ -9,11 +9,11 @@ public class CustomGazeInteractor : MonoBehaviour
     //references
     private XRRayInteractor gazeInteractor;
 
+    //references and configurations for the eye tracking cursor
     public GameObject cursor;
     public Camera mainCamera;
-    public bool showCursor;
-    // Distance along the gaze interactor's ray
     public float cursorDistance;
+    public bool showCursor;
 
     void Awake()
     {

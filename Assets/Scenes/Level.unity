@@ -944,8 +944,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cursor: {fileID: 80150708}
   mainCamera: {fileID: 339553533}
-  showCursor: 0
   cursorDistance: 2
+  showCursor: 0
 --- !u!1 &339553529
 GameObject:
   m_ObjectHideFlags: 0
@@ -2990,7 +2990,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1260164459
 Transform:
   m_ObjectHideFlags: 0
@@ -4472,7 +4472,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1580255210
 Transform:
   m_ObjectHideFlags: 0
@@ -5669,6 +5669,10 @@ PrefabInstance:
     - target: {fileID: 2510894517466673729, guid: 71f2df4a9ebe1ab4f9ba222a7e2f0f20, type: 3}
       propertyPath: m_Name
       value: Eye Tracking Cursor
+      objectReference: {fileID: 0}
+    - target: {fileID: 2510894517466673729, guid: 71f2df4a9ebe1ab4f9ba222a7e2f0f20, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2510894518429145982, guid: 71f2df4a9ebe1ab4f9ba222a7e2f0f20, type: 3}
       propertyPath: m_LocalScale.x
