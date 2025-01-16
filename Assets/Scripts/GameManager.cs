@@ -86,6 +86,8 @@ public class GameManager : MonoBehaviour
         //set the text
         floatingText.text = "Pay attention!";
 
+        yield return new WaitForSeconds(1.75f);
+
         //the first object the player needs to get is the first one in the pattern
         modelObject = rythmPattern[0];
         numRightInARow = 0;

@@ -20,7 +20,7 @@ public class CustomGazeInteractor : MonoBehaviour
         // Get the Gaze Interactor component
         gazeInteractor = GetComponent<XRRayInteractor>();
 
-        showCursor = false;
+        showCursor = true;
     }
 
     void FixedUpdate()
